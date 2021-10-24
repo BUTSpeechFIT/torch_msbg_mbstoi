@@ -44,3 +44,13 @@ The script `example.py` shows how to use the provided module as a loss function 
 
 ![Loss function with MSBG and MBSTOI loss](imgs/loss_function.png)
 
+## Citation
+If you use this work, please cite:
+```
+@inproceedings{Zmolikova2021BUT,
+  author    = {Zmolikova, Katerina and \v{C}ernock\'{y}, Jan "Honza"},
+  title     = {{BUT system for the first Clarity enhancement challenge}},
+  year      = {2021},
+  booktitle = {The Clarity Workshop on Machine Learning Challenges for Hearing Aids (Clarity-2021)},
+}
+```

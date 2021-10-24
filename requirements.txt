@@ -1,0 +1,7 @@
+numpy
+scipy
+torch
+soundfile
+matplotlib
+importlib_resources
+tqdm

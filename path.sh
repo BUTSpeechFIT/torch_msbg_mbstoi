@@ -1,0 +1,4 @@
+export CLARITY_ROOT=/clarity_CEC1
+PATH_TO_REPOSITORY=/torch_msbg_mbstoi
+
+export PYTHONPATH=$PATH_TO_REPOSITORY/src:$CLARITY_ROOT/projects/MSBG:$CLARITY_ROOT/lib/clarity_core:$CLARITY_ROOT/projects/MBSTOI:$PYTHONPATH

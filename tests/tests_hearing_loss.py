@@ -8,8 +8,8 @@ import MSBG
 import clarity_core
 from hearing_loss import HearingLoss, Cochlea, gtfbank_params_all
 
-clarity_metadata_dir = Path('/mnt/matylda6/izmolikova/Corpora/Clarity/clarity/metadata')
-clarity_data_dir = Path('/mnt/matylda6/izmolikova/Corpora/Clarity/clarity_full_new/clarity_CEC1_data/clarity_data')
+clarity_metadata_dir = Path('/clarity/metadata')
+clarity_data_dir = Path('/clarity_CEC1_data/clarity_data')
 
 # example signal
 with open(clarity_metadata_dir / 'scenes.dev.json') as f:

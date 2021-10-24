@@ -11,8 +11,8 @@ from clarity_core.config import CONFIG
 from mbstoi import MBSTOI
 import MBSTOI as baselineMBSTOI
 
-clarity_metadata_dir = Path('/mnt/matylda6/izmolikova/Corpora/Clarity/clarity/metadata')
-clarity_data_dir = Path('/mnt/matylda6/izmolikova/Corpora/Clarity/clarity_full_new/clarity_CEC1_data/clarity_data')
+clarity_metadata_dir = Path('/clarity/metadata')
+clarity_data_dir = Path('/clarity_CEC1_data/clarity_data')
 
 with open(clarity_metadata_dir / 'scenes.dev.json') as f:
     scenes = json.load(f)

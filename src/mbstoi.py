@@ -1,6 +1,10 @@
 # This module provides a differentiable implementation of MBSTOI intelligibility
-# metric. It follows MBSTOI model provided with the Clarity challenge
-# at https://github.com/claritychallenge/clarity_CEC1/tree/master/projects/MBSTOI
+# metric. 
+# It is a Pytorch approximation of an implementation 
+# of the Modified Binaural Short-Time Objective Intelligibility (MBSTOI) 
+# measure as described in: 
+# A. H. Andersen, J. M. de Haan, Z.-H. Tan, and J. Jensen, “Refinement and validation of the binaural short time objective intelligibility measure for spatially diverse conditions,” Speech Communication, vol. 102, pp. 1-13, Sep. 2018. - Asger Heidemann Andersen, 10/12-2018. 
+# All title, copyrights and pending patents in and to the original MATLAB Software are owned by Oticon A/S and/or Aalborg University. Please see details at http://ah-andersen.net/code/"
 
 import torch
 import torch.nn as nn
